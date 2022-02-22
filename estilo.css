@@ -1,0 +1,49 @@
+*::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    color: rgb(75, 73, 73);
+}
+.contenedor{
+    height: 100vh;
+    width: 70vw;
+    margin: 720px;
+}
+.contenedor h2{
+    
+    margin-bottom: 15px;
+    font-size: 2.3rem;
+}
+.formulario{
+    display: block;
+    width: 50%;
+    margin: 15px, auto;
+    display: flex;
+    flex-direction: column;
+}
+.formulario input{
+    outline: 0;
+    border: 0;
+    line-height: 50px;
+}
+.formulario button{
+    border-radius: 5px;
+    background-color: rgb(116, 113, 113);
+    border: 0;
+    outline: 0;
+    height: 35px;
+    color: white;
+
+}
+
+.datos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
